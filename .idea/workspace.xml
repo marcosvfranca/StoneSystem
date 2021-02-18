@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d65b7000-2aad-4306-bee9-10bec57beb01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ChapasBlocosController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ChapasBlocosEspessurasController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ChapasBlocosEstadosController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ChapasBlocosObservacoesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ChapasBlocosEspessurasRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ChapasBlocosEstadosRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ChapasBlocosObservacoesRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ChapasBlocosRequest2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.loading.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/mixins/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/mixins/_navbar-colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/mixins/_navs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/mixins/_sidebar-color.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/mixins/_transparency.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/mixins/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/mixins/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/plugins/_animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/plugins/_chartist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/plugins/_perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_bootstrap-material-design-base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_bootstrap-material-design.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_brand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_colors-map.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_drawer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_snackbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_state.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/material/scss/material-dashboard/variables/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blocos/chapas/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blocos/importarserrada.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blocos/serrada.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/blocos/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/chapasserradas/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/chapasserradas/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/chapasserradas/editfororder.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/chapasserradas/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/chapasserradas/itens/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/chapasserradas/itens/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/chapasserradas/js.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/chapasserradas/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/chapasserradas/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/classificacoesblocos/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/classificacoesblocos/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/classificacoesblocos/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/classificacoesblocos/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/classificacoesblocos/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/espessuraschapas/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/espessuraschapas/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/espessuraschapas/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/espessuraschapas/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/espessuraschapas/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/estadoschapas/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/estadoschapas/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/estadoschapas/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/estadoschapas/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/estadoschapas/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/fornecedores/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/fornecedores/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/fornecedores/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/fornecedores/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/fornecedores/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/gruposusuarios/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/motivos/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/observacoeschapas/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/observacoeschapas/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/observacoeschapas/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/observacoeschapas/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/observacoeschapas/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/executar/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/executar/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/processos/js.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/processos/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/relatorios/agendamentos.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/relatorios/blocos-chapas.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/relatorios/estoque-blocos-brutos.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/relatorios/estoque-chapas-serradas.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/relatorios/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/tipomaterialprocessos/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/tiposblocos/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/transportadores/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/semacesso.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/padrao.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/table.blade.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel-frontend-presets/material-dashboard" />
+      <path value="$PROJECT_DIR$/vendor/laracasts/flash" />
+      <path value="$PROJECT_DIR$/vendor/select2/select2" />
+      <path value="$PROJECT_DIR$/vendor/igorescobar/jquery-mask-plugin" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hyht8XhnG0x91bWBo2ibioIHh5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wamp64/www/importacoes-model.php" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\StoneSystem\public\js" />
+      <recent name="C:\StoneSystem\public\css" />
+      <recent name="C:\StoneSystem\resources\views\pages\blocos\chapas" />
+      <recent name="C:\StoneSystem\resources\views\pages\transportadores" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\StoneSystem\resources\views\pages\relatorios" />
+      <recent name="C:\StoneSystem\public" />
+      <recent name="C:\StoneSystem\resources\views" />
+      <recent name="C:\StoneSystem\resources\views\pages\chapasserradas" />
+      <recent name="C:\StoneSystem\resources\views\pages\ordemdeserradas\executar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.prod" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d65b7000-2aad-4306-bee9-10bec57beb01" name="Default Changelist" comment="" />
+      <created>1600989453477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600989453477</updated>
+      <workItem from="1600989455934" duration="4419000" />
+      <workItem from="1601421041050" duration="4046000" />
+      <workItem from="1601428674981" duration="3643000" />
+      <workItem from="1601588299238" duration="3580000" />
+      <workItem from="1601940053179" duration="6394000" />
+      <workItem from="1602797959503" duration="7201000" />
+      <workItem from="1602806973146" duration="4342000" />
+      <workItem from="1603065594758" duration="3527000" />
+      <workItem from="1603070116592" duration="24663000" />
+      <workItem from="1603499064470" duration="1062000" />
+      <workItem from="1603843674183" duration="1756000" />
+      <workItem from="1603845497668" duration="1757000" />
+      <workItem from="1603924418424" duration="2646000" />
+      <workItem from="1603927398162" duration="1452000" />
+      <workItem from="1604013393429" duration="1856000" />
+      <workItem from="1604015300566" duration="1765000" />
+      <workItem from="1604017125243" duration="459000" />
+      <workItem from="1604091179167" duration="17476000" />
+      <workItem from="1604441889708" duration="13129000" />
+      <workItem from="1604612381303" duration="2607000" />
+      <workItem from="1605356033312" duration="1296000" />
+      <workItem from="1605357860561" duration="21555000" />
+      <workItem from="1605411701249" duration="3489000" />
+      <workItem from="1605445222722" duration="4878000" />
+      <workItem from="1605488022297" duration="4534000" />
+      <workItem from="1605740300342" duration="7416000" />
+      <workItem from="1605923449146" duration="15079000" />
+      <workItem from="1606251189006" duration="8710000" />
+      <workItem from="1606342146879" duration="4618000" />
+      <workItem from="1606426648079" duration="5867000" />
+      <workItem from="1606438022910" duration="7074000" />
+      <workItem from="1606575358145" duration="4782000" />
+      <workItem from="1606771144557" duration="15211000" />
+      <workItem from="1607394613202" duration="568000" />
+      <workItem from="1607462963044" duration="15213000" />
+      <workItem from="1607637875740" duration="9290000" />
+      <workItem from="1607654058092" duration="12211000" />
+      <workItem from="1608038235299" duration="40907000" />
+      <workItem from="1608224985582" duration="8502000" />
+      <workItem from="1608333387690" duration="10704000" />
+      <workItem from="1608573433290" duration="397000" />
+      <workItem from="1608573888959" duration="742000" />
+      <workItem from="1608574692194" duration="15892000" />
+      <workItem from="1608639684643" duration="10800000" />
+      <workItem from="1609157684493" duration="1767000" />
+      <workItem from="1609159521807" duration="19470000" />
+      <workItem from="1609241338070" duration="5105000" />
+      <workItem from="1609251610410" duration="15446000" />
+      <workItem from="1609356195280" duration="19369000" />
+      <workItem from="1609788731429" duration="1614000" />
+      <workItem from="1609873143336" duration="18120000" />
+      <workItem from="1609953682158" duration="6990000" />
+      <workItem from="1609964156208" duration="1691000" />
+      <workItem from="1610020317472" duration="3798000" />
+      <workItem from="1610025849976" duration="5850000" />
+      <workItem from="1610040990057" duration="2221000" />
+      <workItem from="1610364997275" duration="11585000" />
+      <workItem from="1610464977855" duration="1456000" />
+      <workItem from="1610472615154" duration="3830000" />
+      <workItem from="1610635047735" duration="1649000" />
+      <workItem from="1611004478831" duration="21659000" />
+      <workItem from="1612035611111" duration="1310000" />
+      <workItem from="1612037434357" duration="3360000" />
+      <workItem from="1612488684718" duration="1941000" />
+      <workItem from="1613499142686" duration="2089000" />
+      <workItem from="1613606880268" duration="2592000" />
+      <workItem from="1613689425902" duration="355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="118" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607566271614">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="118" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1607566271614" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608595059170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608595059170" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612039014346">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612039014346" />
+    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1613499151547">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613499151547" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1608156546956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608156546956" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1608156546956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608156546956" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1608156546956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608156546956" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1608156546956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608156546956" />
+    <state x="453" y="86" key="NewPhpClassDialog" timestamp="1609779539988">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="453" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1609779539988" />
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1609961832648">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609961832648" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1609877246362">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609877246362" />
+    <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1610027494859">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1610027494859" />
+    <state x="500" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609950224385">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1609950224385" />
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610020350004">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610020350004" />
+    <state x="190" y="136" width="697" height="735" key="dock-window-1" timestamp="1606429392439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="190" y="136" width="697" height="735" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1606429392439" />
+    <state x="389" y="0" width="650" height="728" key="find.popup" timestamp="1613499771312">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" width="650" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1613499771312" />
+    <state x="549" y="237" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1608056480371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="549" y="237" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1366.728@0.0.1366.728" timestamp="1608056480371" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1613499304018">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1613499304018" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1613609209077">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1613609209077" />
+  </component>
+</project>
