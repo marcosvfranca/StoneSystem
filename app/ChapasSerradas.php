@@ -2,9 +2,9 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
+use App\BaseModel;
 
-class ChapasSerradas extends Model
+class ChapasSerradas extends BaseModel
 {
 
     protected $fillable = [

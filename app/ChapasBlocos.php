@@ -2,9 +2,9 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
+use App\BaseModel;
 
-class ChapasBlocos extends Model
+class ChapasBlocos extends BaseModel
 {
     protected $fillable = [
         'comprimento', 'largura', 'numeracao', 'blocos_id', 'espessuras_chapas_id'

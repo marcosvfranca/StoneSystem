@@ -82,16 +82,16 @@
                 <thead class=" text-warning">
                 <tr>
                     <th>
-                        Numeração do bloco
+                        Numero de pedreira
                     </th>
                     <th class="text-right">
-                        Comprimento
+                        Comprimento bruto
                     </th>
                     <th class="text-right">
-                        Altura
+                        Altura bruta
                     </th>
                     <th class="text-right">
-                        Largura
+                        Largura bruta
                     </th>
                     <th class="text-right">
                         M³
@@ -120,21 +120,21 @@
                 @foreach($blocos_brutos as $b)
                     <tr>
                     @php
-                    $m3Aux = $b->comprimento * $b->altura * $b->largura;
+                    $m3Aux = $b->comprimento_bruto * $b->altura_bruta * $b->largura_bruta;
                     $m3 += $m3Aux;
                     @endphp
                         <td>
-                            <a href="{{ route('relatorios.historico', ['numeracao' => $b->numeracao]) }}" target="_blank">{{ $b->numeracao }}</a>
-                            {{ $b->numeracao }}
+                            <a href="{{ route('relatorios.historico', ['numeracao' => $b->numeracao_pedreira]) }}" target="_blank">{{ $b->numeracao_pedreira }}</a>
+{{--                            {{ $b->numeracao_pedreira }}--}}
                         </td>
                         <td class="text-right">
-                            {{ number_format($b->comprimento, 2, ',', '.') }}
+                            {{ number_format($b->comprimento_bruto, 2, ',', '.') }}
                         </td>
                         <td class="text-right">
-                            {{ number_format($b->altura, 2, ',', '.') }}
+                            {{ number_format($b->altura_bruta, 2, ',', '.') }}
                         </td>
                         <td class="text-right">
-                            {{ number_format($b->largura, 2, ',', '.') }}
+                            {{ number_format($b->largura_bruta, 2, ',', '.') }}
                         </td>
                         <td class="text-right">
                             {{ number_format($m3Aux, 2, ',', '.') }}

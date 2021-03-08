@@ -2,9 +2,9 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
+use App\BaseModel;
 
-class Blocos extends Model
+class Blocos extends BaseModel
 {
     protected $fillable = [
         'numeracao', 'transportadores_id', 'tipos_blocos_id'

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\AgendamentoProcesso;
+use App\Blocos;
 use App\BlocosBrutos;
 use App\ChapasSerradas;
 use App\ClassificacoesBlocos;
@@ -223,7 +224,12 @@ group by ap.id, ap.observacoes, b.numeracao, tb.descricao, gu.nome, ap.created_a
 
     public function historicoBloco($numeracao)
     {
-        throw new Exception('Classe bloco não regularizada');
+        return view('pages.relatorios.historico-bloco', [
+            'numeracao' => $numeracao,
+            'bloco' => BlocosBrutos::where('numeracao_pedreira', $numeracao)->first(),
+            'chapa_serrada' => ChapasSerradas::where('numeracao', $numeracao)->first(),
+            'chapa_bruta' => Blocos::where('numeracao', $numeracao)->first(),
+        ]);
     }
 
 }

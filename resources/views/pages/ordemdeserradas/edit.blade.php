@@ -16,7 +16,7 @@
                                 <select class="form-control select2 @error('blocos_brutos_id') is-invalid @enderror" name="blocos_brutos_id" data-placeholder="Selecione o bloco">
                                     <option value="">Selecione o bloco</option>
                                     @foreach($blocos_brutos as $b)
-                                        <option value="{{ $b->id }}" @if($b->id == $ordem_de_serrada->blocos_brutos_id) selected @endif>{{ $b->numeracao }} - {{ $b->tiposBlocos()->first()->descricao }}</option>
+                                        <option value="{{ $b->id }}" @if($b->id == $ordem_de_serrada->blocos_brutos_id) selected @endif>{{ $b->numeracao_pedreira }} - {{ $b->tiposBlocos()->first()->descricao }}</option>
                                     @endforeach
                                 </select>
                                 @error('blocos_brutos_id')

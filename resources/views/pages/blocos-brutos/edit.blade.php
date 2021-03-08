@@ -11,30 +11,101 @@
                         @csrf
                         @method('PUT')
                         <div class="row">
+                            <div class="col-4 form-group">
+                                <input autofocus class="form-control @error('numeracao_pedreira') is-invalid @enderror" name="numeracao_pedreira" placeholder="Número de pedreira" value="{{ $blocos_bruto->numeracao_pedreira }}">
+                                @error('numeracao_pedreira')
+                                <span class="error text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-4 form-group">
+                                <input autofocus class="form-control @error('nosso_numero') is-invalid @enderror" name="nosso_numero" placeholder="Nosso número" value="{{ $blocos_bruto->nosso_numero }}">
+                                @error('nosso_numero')
+                                <span class="error text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-4 form-group">
+                                <label style="display: block;margin-top: -15px;">Origem</label>
+                                <select class="select2 w-100" name="origem">
+                                    <option value="P" @if($blocos_bruto->origem == 'P') selected @endif>Próprio</option>
+                                    <option value="T" @if($blocos_bruto->origem == 'T') selected @endif>Terceiros</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 form-group" style="margin-bottom: -25px;">
+                                <p class="font-weight-bold">Medidas brutas</p>
+                            </div>
+                            <div class="col-4 form-group">
+                                <input class="form-control @error('comprimento_bruto') is-invalid @enderror" name="comprimento_bruto" placeholder="Comprimento bruto" value="{{ number_format($blocos_bruto->comprimento_bruto, 2, ',', '.') }}">
+                                @error('comprimento_bruto')
+                                <span class="error text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-4 form-group">
+                                <input class="form-control @error('altura_bruta') is-invalid @enderror" name="altura_bruta" placeholder="Altura bruta" value="{{ number_format($blocos_bruto->altura_bruta, 2, ',', '.') }}">
+                                @error('altura_bruta')
+                                <span class="error text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-4 form-group">
+                                <input class="form-control @error('largura_bruta') is-invalid @enderror" name="largura_bruta" placeholder="Largura bruta" value="{{ number_format($blocos_bruto->largura_bruta, 2, ',', '.') }}">
+                                @error('largura_bruta')
+                                <span class="error text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 form-group" style="margin-bottom: -25px;">
+                                <p class="font-weight-bold">Medidas líquidas</p>
+                            </div>
+                            <div class="col-4 form-group">
+                                <input class="form-control @error('comprimento_liquido') is-invalid @enderror" name="comprimento_liquido" placeholder="Comprimento líquido" value="{{ number_format($blocos_bruto->comprimento_liquido, 2, ',', '.') }}">
+                                @error('comprimento_liquido')
+                                <span class="error text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-4 form-group">
+                                <input class="form-control @error('altura_liquida') is-invalid @enderror" name="altura_liquida" placeholder="Altura líquida" value="{{ number_format($blocos_bruto->altura_liquida, 2, ',', '.') }}">
+                                @error('altura_liquida')
+                                <span class="error text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-4 form-group">
+                                <input class="form-control @error('largura_liquida') is-invalid @enderror" name="largura_liquida" placeholder="Largura líquida" value="{{ number_format($blocos_bruto->largura_liquida, 2, ',', '.') }}">
+                                @error('largura_liquida')
+                                <span class="error text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                        </div>
+                        <div class="row">
                             <div class="col-3 form-group">
-                                <input autofocus class="form-control @error('numeracao') is-invalid @enderror" name="numeracao" placeholder="Numeração" value="{{ $blocos_bruto->numeracao }}">
-                                @error('numeracao')
+                                <input class="form-control @error('nf_chegada') is-invalid @enderror" name="nf_chegada" placeholder="NF de chegada" value="{{ $blocos_bruto->nf_chegada }}">
+                                @error('nf_chegada')
                                 <span class="error text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
                             <div class="col-3 form-group">
-                                <input class="form-control @error('comprimento') is-invalid @enderror" name="comprimento" placeholder="Comprimento" value="{{ number_format($blocos_bruto->comprimento, 2, ',', '.') }}">
-                                @error('comprimento')
+                                <label>Data NF Chegada</label>
+                                <input type="date" class="form-control @error('dt_nf_chegada') is-invalid @enderror" name="dt_nf_chegada" placeholder="Data NF Chegada" value="{{ $blocos_bruto->dt_nf_chegada }}">
+                                @error('dt_nf_chegada')
                                 <span class="error text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
                             <div class="col-3 form-group">
-                                <input class="form-control @error('altura') is-invalid @enderror" name="altura" placeholder="Altura" value="{{ number_format($blocos_bruto->altura, 2, ',', '.') }}">
-                                @error('altura')
+                                <input class="form-control @error('nf_compra') is-invalid @enderror" name="nf_compra" placeholder="NF de Compra" value="{{ $blocos_bruto->nf_compra }}">
+                                @error('nf_compra')
                                 <span class="error text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
                             <div class="col-3 form-group">
-                                <input class="form-control @error('largura') is-invalid @enderror" name="largura" placeholder="Largura" value="{{ number_format($blocos_bruto->largura, 2, ',', '.') }}">
-                                @error('largura')
+                                <label>Data NF de Compra</label>
+                                <input type="date" class="form-control @error('dt_nf_compra') is-invalid @enderror" name="dt_nf_compra" placeholder="Data NF de Compra" value="{{ $blocos_bruto->dt_nf_compra }}">
+                                @error('dt_nf_compra')
                                 <span class="error text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col-6 form-group">
                                 <select class="form-control select2 @error('transportadores_id') is-invalid @enderror" name="transportadores_id" data-placeholder="Selecione o transportador">
                                     @foreach($transportadores as $t)

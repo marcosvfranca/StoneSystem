@@ -205,7 +205,7 @@
                             <li class="nav-item{{ $activePage == 'relatorio_blocos_chapas' ? ' active' : '' }}">
                                 <a class="nav-link" href="{{ route('relatorios.blocos-chapas') }}" target="_blank">
                                     <i class="material-icons">receipt_long</i>
-                                    <span class="sidebar-normal"> {{ __('Blocos/chapas') }} </span>
+                                    <span class="sidebar-normal">{{ __('Estoque Chapa Bruta (Gatti)') }}</span>
                                 </a>
                             </li>
                             @endif

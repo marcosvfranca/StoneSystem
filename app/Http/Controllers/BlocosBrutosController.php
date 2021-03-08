@@ -31,7 +31,8 @@ class BlocosBrutosController extends Controller
         $blocos_brutos = BlocosBrutos::whereRaw('1 = 1');
         if (isset($data['q']) and $data['q'])
             $blocos_brutos
-                ->where('numeracao', 'like', '%' . $data['q'] . '%');
+                ->where('numeracao_pedreira	', 'like', '%' . $data['q'] . '%')
+                ->where('nosso_numero	', 'like', '%' . $data['q'] . '%');
         return view('pages.blocos-brutos.table', ['blocos_brutos' => $blocos_brutos->limit(100)->get()]);
     }
 
@@ -61,9 +62,12 @@ class BlocosBrutosController extends Controller
     public function store(BlocosBrutosRequest $request)
     {
         $data = $request->all();
-        $data['comprimento'] = str_replace(',', '.', $data['comprimento']);
-        $data['altura'] = str_replace(',', '.', $data['altura']);
-        $data['largura'] = str_replace(',', '.', $data['largura']);
+        $data['comprimento_bruto'] = str_replace(',', '.', $data['comprimento_bruto']);
+        $data['altura_bruta'] = str_replace(',', '.', $data['altura_bruta']);
+        $data['largura_bruta'] = str_replace(',', '.', $data['largura_bruta']);
+        $data['comprimento_liquido'] = str_replace(',', '.', $data['comprimento_liquido']);
+        $data['altura_liquida'] = str_replace(',', '.', $data['altura_liquida']);
+        $data['largura_liquida'] = str_replace(',', '.', $data['largura_liquida']);
         $bloco_bruto = BlocosBrutos::create($data);
         foreach ($data['observacoes_id'] as $o)
             ObservacoesBlocosBrutos::create([
@@ -114,9 +118,12 @@ class BlocosBrutosController extends Controller
     {
         $this->temAcesso('blocos_brutos', 'A');
         $data = $request->all();
-        $data['comprimento'] = str_replace(',', '.', $data['comprimento']);
-        $data['altura'] = str_replace(',', '.', $data['altura']);
-        $data['largura'] = str_replace(',', '.', $data['largura']);
+        $data['comprimento_bruto'] = str_replace(',', '.', $data['comprimento_bruto']);
+        $data['altura_bruta'] = str_replace(',', '.', $data['altura_bruta']);
+        $data['largura_bruta'] = str_replace(',', '.', $data['largura_bruta']);
+        $data['comprimento_liquido'] = str_replace(',', '.', $data['comprimento_liquido']);
+        $data['altura_liquida'] = str_replace(',', '.', $data['altura_liquida']);
+        $data['largura_liquida'] = str_replace(',', '.', $data['largura_liquida']);
         $blocos_bruto->update($data);
         ObservacoesBlocosBrutos::where('blocos_brutos_id', $blocos_bruto->id)->delete();
         foreach ($data['observacoes_id'] as $o)

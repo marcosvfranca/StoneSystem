@@ -21,7 +21,7 @@
 
     }
 </style>
-<div class="container-fluid">
+<div class="{{ $class_container ?? "container-fluid" }}">
     <h3 class="mt-2">{{ $titlePage }}</h3>
     @yield('relatorio')
 </div>
@@ -33,10 +33,17 @@
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
 <script>
     $('.select2').select2();
-    function imprimir() {
+    function imprimir(mudarParaContainerFluid = false) {
+        if (mudarParaContainerFluid) {
+            var container = $('div.container');
+            container.removeClass('container').addClass('container-fluid');
+        }
         $('.ocultarNaImpressao').hide();
         window.print();
         $('.ocultarNaImpressao').show();
+        if (mudarParaContainerFluid) {
+            container.removeClass('container-fluid').addClass('container');
+        }
     }
 </script>
 @stack('js')

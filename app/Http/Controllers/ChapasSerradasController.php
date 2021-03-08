@@ -22,7 +22,7 @@ class ChapasSerradasController extends Controller
     public function index()
     {
         $this->temAcesso('chapas_serradas');
-        return view('pages.chapasserradas.index', ['chapasSerradas' => ChapasSerradas::limit(100)->get()]);
+        return view('pages.chapasserradas.index', ['chapasSerradas' => ChapasSerradas::limit(100)->orderByDesc('created_at')->get()]);
     }
 
     public function pesquisa()
@@ -32,7 +32,7 @@ class ChapasSerradasController extends Controller
         if (isset($data['q']) and $data['q'])
             $chapasSerradas
                 ->where('numeracao', 'like', '%' . $data['q'] . '%');
-        return view('pages.chapasserradas.table', ['chapasSerradas' => $chapasSerradas->limit(100)->get()]);
+        return view('pages.chapasserradas.table', ['chapasSerradas' => $chapasSerradas->limit(100)->orderByDesc('created_at')->get()]);
     }
 
     /**
@@ -52,7 +52,7 @@ class ChapasSerradasController extends Controller
     public function createForOrder(OrdemDeSerradas $ordem_de_serrada)
     {
         $chapa_serrada = ChapasSerradas::create([
-            'numeracao' => $ordem_de_serrada->blocoBruto()->first()->numeracao,
+            'numeracao' => $ordem_de_serrada->blocoBruto()->first()->numeracao_pedreira,
             'tipos_blocos_id' => $ordem_de_serrada->blocoBruto()->first()->tipos_blocos_id
         ]);
         $ordem_de_serrada->chapas_serradas_id = $chapa_serrada->id;
@@ -91,7 +91,7 @@ class ChapasSerradasController extends Controller
                 'observacoes_chapas_id' => $o
             ]);
 
-        $bloco_bruto = BlocosBrutos::whereNull('chapas_serradas_id')->where('numeracao', $chapaSerrada->numeracao)->first();
+        $bloco_bruto = BlocosBrutos::whereNull('chapas_serradas_id')->where('numeracao_pedreira', $chapaSerrada->numeracao)->first();
         if ($bloco_bruto) {
             $bloco_bruto->chapas_serradas_id = $chapaSerrada->id;
             $bloco_bruto->save();

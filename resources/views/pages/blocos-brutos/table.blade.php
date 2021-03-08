@@ -5,7 +5,10 @@
         <thead class=" text-warning">
         <tr>
             <th>
-                Numeração
+                Numeração de pedreira
+            </th>
+            <th>
+                Nosso número
             </th>
             <th>
                 Material
@@ -19,16 +22,8 @@
             <th>
                 Transportador
             </th>
-            <th>
-                Comprimento
-            </th>
-            <th>
-                Altura
-            </th>
-            <th>
-                Largura
-            </th>
-            <th>M³</th>
+            <th>Cubagem bruta</th>
+            <th>Cubagem líquida</th>
             <th class="text-center">
                 Cadastrado em
             </th>
@@ -41,7 +36,10 @@
         @foreach($blocos_brutos as $b)
             <tr>
                 <td>
-                    {{ $b->numeracao }}
+                    {{ $b->numeracao_pedreira }}
+                </td>
+                <td>
+                    {{ $b->nosso_numero }}
                 </td>
                 <td>
                     {{ $b->tiposBlocos()->first()->descricao }}
@@ -55,16 +53,17 @@
                 <td>
                     {{ $b->transportadores()->first()->nome }}
                 </td>
-                <td>
-                    {{ number_format($b->comprimento, 2, ',', '.') }}
-                </td>
-                <td>
-                    {{ number_format($b->altura, 2, ',', '.') }}
-                </td>
-                <td>
-                    {{ number_format($b->largura, 2, ',', '.') }}
-                </td>
-                <td>{{ number_format($b->comprimento * $b->altura * $b->largura, 2, ',', '.') }}</td>
+{{--                <td>--}}
+{{--                    {{ number_format($b->comprimento, 2, ',', '.') }}--}}
+{{--                </td>--}}
+{{--                <td>--}}
+{{--                    {{ number_format($b->altura, 2, ',', '.') }}--}}
+{{--                </td>--}}
+{{--                <td>--}}
+{{--                    {{ number_format($b->largura, 2, ',', '.') }}--}}
+{{--                </td>--}}
+                <td>{{ number_format($b->comprimento_bruto * $b->altura_bruta * $b->largura_bruta, 2, ',', '.') }}</td>
+                <td>{{ number_format($b->comprimento_liquido * $b->altura_liquida * $b->largura_liquida, 2, ',', '.') }}</td>
                 <td class="text-center">
                     {{ date('d/m/Y', strtotime($b->created_at)) }}
                 </td>

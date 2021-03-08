@@ -13,7 +13,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d65b7000-2aad-4306-bee9-10bec57beb01" name="Default Changelist" comment="" />
+    <list default="true" id="d65b7000-2aad-4306-bee9-10bec57beb01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/BaseModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/relatorios/historico-bloco.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/202012221313.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202012281352.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202012281450.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202012291503.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202012291550.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202012291616.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202012291621.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202101040821.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202101041531.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202101041647.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202101071022.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202101071204.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202101111340.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202101111345.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202101192152.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202101192155.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKUP COMPLETO 2021-01-18.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Blocos.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Blocos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BlocosBrutos.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/BlocosBrutos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ChapasBlocos.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ChapasBlocos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ChapasSerradas.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ChapasSerradas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlocosBrutosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlocosBrutosController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChapasSerradasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChapasSerradasController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RelatoriosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RelatoriosController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/BlocosBrutosRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/BlocosBrutosRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ItensChapasSerrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ItensChapasSerrada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/blocos-brutos/table.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/executar/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/executar/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/ordemdeserradas/table.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/relatorios/estoque-blocos-brutos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/relatorios/estoque-blocos-brutos.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/relatorios/padrao.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/relatorios/padrao.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,24 +202,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wamp64/www/importacoes-model.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\StoneSystem\app" />
+      <recent name="C:\StoneSystem\resources\views\pages\relatorios" />
+      <recent name="C:\StoneSystem\public" />
+      <recent name="C:\StoneSystem\resources\views" />
+      <recent name="C:\StoneSystem\resources\views\pages\chapasserradas" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\StoneSystem\public\js" />
       <recent name="C:\StoneSystem\public\css" />
       <recent name="C:\StoneSystem\resources\views\pages\blocos\chapas" />
       <recent name="C:\StoneSystem\resources\views\pages\transportadores" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\StoneSystem\resources\views\pages\relatorios" />
-      <recent name="C:\StoneSystem\public" />
-      <recent name="C:\StoneSystem\resources\views" />
-      <recent name="C:\StoneSystem\resources\views\pages\chapasserradas" />
-      <recent name="C:\StoneSystem\resources\views\pages\ordemdeserradas\executar" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -286,7 +328,13 @@
       <workItem from="1612488684718" duration="1941000" />
       <workItem from="1613499142686" duration="2089000" />
       <workItem from="1613606880268" duration="2592000" />
-      <workItem from="1613689425902" duration="721000" />
+      <workItem from="1613689425902" duration="8066000" />
+      <workItem from="1613779084746" duration="7940000" />
+      <workItem from="1614008833830" duration="147000" />
+      <workItem from="1614027258030" duration="334000" />
+      <workItem from="1614815128082" duration="1749000" />
+      <workItem from="1614817237758" duration="1705000" />
+      <workItem from="1615247367861" duration="268000" />
     </task>
     <servers />
   </component>
@@ -317,10 +365,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608595059170" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612039014346">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1614818119768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612039014346" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1614818119768" />
     <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1613499151547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -357,33 +405,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1610027494859" />
-    <state x="500" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609950224385">
+    <state width="544" height="446" key="SwitcherDM" timestamp="1613782801794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1609950224385" />
+    <state width="544" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1613782801794" />
+    <state x="500" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613692520412">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1613692520412" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610020350004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610020350004" />
-    <state x="190" y="136" width="697" height="735" key="dock-window-1" timestamp="1606429392439">
+    <state x="456" y="258" width="1027" height="502" key="dock-window-1" timestamp="1613696522105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="190" y="136" width="697" height="735" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1606429392439" />
-    <state x="389" y="0" width="650" height="728" key="find.popup" timestamp="1613499771312">
+    <state x="456" y="258" width="1027" height="502" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1613696522105" />
+    <state x="389" y="0" width="650" height="728" key="find.popup" timestamp="1614815636340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="0" width="650" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1613499771312" />
+    <state x="389" y="0" width="650" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1614815636340" />
     <state x="549" y="237" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1608056480371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="549" y="237" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1366.728@0.0.1366.728" timestamp="1608056480371" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1613499304018">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1613789368500">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1613499304018" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1613609209077">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1613789368500" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1615247628614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1613609209077" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1615247628614" />
   </component>
 </project>

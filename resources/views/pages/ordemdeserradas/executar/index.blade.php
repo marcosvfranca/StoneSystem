@@ -9,7 +9,7 @@
                     <h4 class="card-title text-capitalize">{{ __('Ordem de serrada: ') . $o->id }}</h4>
                 </div>
                 <div class="card-body">
-                    <p><b>Númeração do bloco:</b> {{ $o->blocoBruto()->first()->numeracao }}</p>
+                    <p><b>Númeração do bloco:</b> {{ $o->blocoBruto()->first()->numeracao_pedreira }}</p>
                     <p><b>Espessura:</b> {{ $o->espessura()->first()->descricao }}</p>
                     <p><b>Material do bloco:</b> {{ $o->blocoBruto()->first()->tiposBlocos()->first()->descricao }}</p>
                     @if($o->observacoes)<div style="display: flex"><h6>Observações: </h6><span style="margin-left: 5px;margin-top: -4px;">@php echo nl2br($o->observacoes) @endphp</span></div>@endif

@@ -5,7 +5,7 @@
         <thead class=" text-warning">
         <tr>
             <th>
-                Numeração do bloco
+                Numeração de pedreira
             </th>
             <th>
                 Material
@@ -31,7 +31,7 @@
         @foreach($ordem_de_serradas as $o)
             <tr>
                 <td>
-                    {{ $o->blocoBruto()->first()->numeracao }}
+                    {{ $o->blocoBruto()->first()->numeracao_pedreira }}
                 </td>
                 <td>
                     {{ $o->blocoBruto()->first()->tiposBlocos()->first()->descricao }}
